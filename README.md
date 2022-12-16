@@ -1,3 +1,6 @@
+This is the official website of the Mathematical Language Processig Lab at the University of Illinois at Urbana-Champaign. This site is built on the Sampa research group website template whose information can be seen below. Huge thanks to the Sampa group for this website template. 
+
+
 Research Group Web Site Template
 ================================
 

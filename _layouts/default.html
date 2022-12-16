@@ -19,11 +19,11 @@
                         flex-column
                         flex-md-row justify-content-md-between">
                 <a href="{{ site.base }}/" class="">
-                    <img src="{{ site.base }}/img/logo.png"
+                    <img src="{{ site.base }}/img/Group_logo_v0.svg"
                          srcset="{{ site.base }}/img/logo@2x.png 2x"
                          alt="Awesome" id="logo">
                 </a>
-                <ul class="nav nav-pills justify-content-center">
+                <ul class="nav nav-pills justify-content-center align-items-end">
 
                     {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
                     {% for item in site.navigation %}
@@ -53,7 +53,7 @@
             {% if page.image %}
                 <img src="{{ page.image }}"
                      alt="{{ page.title }}"
-                     style="max-width: 400px"
+                     style="max-width: 1000px"
                      class="img-fluid mx-auto d-block mb-4"/>
             {% endif %}
 
@@ -65,9 +65,9 @@
 
             <div class="footer">
                 <p>
-                    <a href="http://dept.example.edu/">Illustrious Department</a>
+                    <a href="http://ece.illinois.edu/">Electrical and Computer Engineering Department</a>
                     at the
-                    <a href="http://example.edu/">University of Example</a>
+                    <a href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a>
                 </p>
             </div>
 
@@ -76,5 +76,15 @@
         <!-- Support retina images. -->
         <script type="text/javascript"
                 src="{{ site.base }}/js/srcset-polyfill.js"></script>
+
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                processEscapes: true
+                }
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>        
     </body>
 </html>
