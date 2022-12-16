@@ -2,8 +2,8 @@
 layout: default
 title: Code
 ---
-This is an example of an additional page you could add to the site (and its navigation).
+Here are some links the various code repositories our members have published
 
-If you like this template, find our group's other code here:
-
- * [uwsampa on GitHub](https://github.com/uwsampa/)
+ * [NL4Opt - Task2 - Winning Model](https://github.com/MLPgroup/nl4opt-eq-generation)
+ * [Mathematical Embedding - Simple Equation Dataset - Coming soon]()
+ * [Mathematical Token Definiiton Extraction](https://github.com/emhamel/Mathematical-Text-Understanding)
