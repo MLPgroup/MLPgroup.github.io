@@ -1,3 +1,10 @@
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  
 name: Mathematical Language Processing Group
 url: http://mlpgroup.com
 
@@ -38,6 +45,8 @@ base: ''
 collections:
   projects:
     output: true
+  resources:
+    output: true
 
 # Navigation bar links.
 navigation:
@@ -47,8 +56,10 @@ navigation:
   #   link: /people.html
   - title: Research
     link: /research.html
-  - title: Blog
+  - title: News
     link: /blog.html    
+  - title: Resources
+    link: /resources.html    
   - title: Publications
     link: /publications.html
   - title: Code
