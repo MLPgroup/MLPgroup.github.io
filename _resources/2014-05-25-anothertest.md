@@ -24,6 +24,10 @@ To log into the campus cluster, open your terminal and ssh in with this command:
 ssh yournetid@cc-login.campuscluster.illinois.edu
 ~~~
 
+{% highlight c %}
+ssh yournetid@cc-login.campuscluster.illinois.edu
+{% endhighlight %}
+
 {% highlight javascript %}
 function sayHello(name) {
   if (!name) {
