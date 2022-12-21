@@ -16,9 +16,10 @@ These are just a few tips and tricks we've learned over the years. Not everythin
 
 One of the hardest things to do in research is to write. It's not fun and it's a long process. Unfortunately, it is the part of research that matters most. So when you're staring at that blank screen, I have two words for you: **word vomit**. I don't care what you write just write *something*, you can edit it later. There's a quote that I think is relevant: 
 
-> The sculpture is already complete within the marble block, before I start my work. It is already there, I just have to chisel away the superfluous material. 
->
-> <cite> - Michelangelo <cite>
+
+>The sculpture is already complete within the marble block, before I start my work. It is already there, I just have to chisel away the superfluous material. 
+><cite> - Michelangelo <cite>
+
 
 The trick is getting that initial block of material and the easiest way to get that is simply word vomit.  
 Write whatever thought is going through your head, write a summarization of a relevant paper for the background, write a description of a graph, hell write an outline of the section, and then write an outline of each of the outlined items. Just write something and hopefully you'll find that once you get over that initial blank page, the rest of the paper will simply flow out. 
