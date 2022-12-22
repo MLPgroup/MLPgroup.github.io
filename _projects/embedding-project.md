@@ -12,10 +12,10 @@ people:
 
 layout: project
 image: /img/embedding-project/stream-based-encoding-scheme.png
-last-updated: 2022-12-10
+last-updated: 2022-12-21
 ---
 
-## Embedding of Mathermatical Expresssions
+<!-- ## Embedding of Mathermatical Expresssions -->
 
 #### Problem
 

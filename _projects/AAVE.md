@@ -11,10 +11,10 @@ people:
 
 layout: project
 #image: /img/MTDE-project/bert.jpg
-last-updated: 2022-12-09
+last-updated: 2022-12-18
 ---
 
-## Classification of mathematical tokens in technical literature
+<!-- ## Classification of mathematical tokens in technical literature -->
 
 #### Problem
 
