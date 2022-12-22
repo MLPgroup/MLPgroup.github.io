@@ -13,10 +13,8 @@ people:
 
 layout: project
 image: img/knowledge-maps/Sample_knowledge_graphs_w_links.drawio.png
-last-updated: 2022-12-10
+last-updated: 2022-12-19
 ---
-
-## Embedding of Mathermatical Expresssions
 
 #### Problem
 
