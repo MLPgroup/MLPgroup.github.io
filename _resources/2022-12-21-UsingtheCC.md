@@ -1,8 +1,8 @@
 ---
 layout: resource
-title: "Using the campus cluster"
+title: "Campus Cluster - Basic usage"
 
-description: The campus cluster is a colletion of high-performance servers maintained by the NCSA. It is a utility we will use for our research so it's important to learn to use it. This guide is a beginner document in using the CampusCluster but can be applicable to many high-performance computing systems. 
+description: The campus cluster is a collection of high-performance servers maintained by the NCSA. It is a utility we will use for our research so it's important to learn to use it. This guide is a beginner document in using the CampusCluster but can be applicable to many high-performance computing systems. 
 
 icon: star-o
 people:
@@ -18,11 +18,11 @@ The [CampusCluster](https://campuscluster.illinois.edu/) is a link between many 
 
 Using the Campus Cluster (CC) is a unique experience because up until now, you've probably used classic computer architectures where you remote into a server, run your program and logout. However, managing the number of users and machines that the CC has requires individuals adopt a new process where you submit jobs (program runs) to a queue and wait for the server to get free, run the job, and notify you once it is done. 
 
-Big idea for using the CC: you submit jobs to queues not servers. So instead of telling the server that you are logged into to run prog.exe, you instead have to tell a queue that you want a server with XYZ hardware to run prog.exe. The queue will wait untl the server has completed the jobs before you to send it your job. 
+Big idea for using the CC: you submit jobs to queues not servers. So instead of telling the server that you are logged into to run prog.exe, you instead have to tell a queue that you want a server with XYZ hardware to run prog.exe. The queue will wait until the server has completed the jobs before you to send it your job. 
 
-Each server is connected to two types of queues, a primary and secondary. The primary queue is specific to that server and access is typically limited to the individuals/groups that own that server. The server itself priortizes taking jobs from the primary queue basically giving its owners dibs on the server time. This gives groups an incentive to buy and connect servers to the CC since their server will always priotize their work. 
+Each server is connected to two types of queues, a primary and secondary. The primary queue is specific to that server and access is typically limited to the individuals/groups that own that server. The server itself prioritizes taking jobs from the primary queue basically giving its owners dibs on the server time. This gives groups an incentive to buy and connect servers to the CC since their server will always prioritize their work. 
 
-The secondary queue is what allow the Illinois community to share unused server cycles. If a server's primary queue is empty, the server will look at the secodnary queue and see if there are any jobs it can perform (accounting for hardware requirements and such). If there are, the server will pick up that job and complete it. Anyone may submit a job to the secondary queue allowing even those indivuduals without equipment/funding some level of support. However, note that the secondary queue is usually very busy and wait times can be long. For this reason, it is always preferrable to get access to as many primary queues as you can. 
+The secondary queue is what allow the Illinois community to share unused server cycles. If a server's primary queue is empty, the server will look at the secondary queue and see if there are any jobs it can perform (accounting for hardware requirements and such). If there are, the server will pick up that job and complete it. Anyone may submit a job to the secondary queue allowing even those individuals without equipment/funding some level of support. However, note that the secondary queue is usually very busy and wait times can be long. For this reason, it is always preferable to get access to as many primary queues as you can. 
 
 ### Getting Started
 
@@ -131,7 +131,7 @@ There are a few considerations when running a job:
 ### Queues
 
 There are two types of queues: 
-1. primary - This is a server specific queue whihc gets priority. Access is limited but if you know the administrator you can ask for access using this [form](https://campuscluster.illinois.edu/new_forms/user_form.php).
+1. primary - This is a server specific queue which gets priority. Access is limited but if you know the administrator you can ask for access using this [form](https://campuscluster.illinois.edu/new_forms/user_form.php).
 2. secondary - This queue is available for everyone to run on.  It's limited to machines with a CPU processor and has a maximum runtime of 4 hours.  
 
 On campus there are several large groups that have servers available for their members. You can ask for access using this [form](https://campuscluster.illinois.edu/new_forms/user_form.php).Some notable queues our group uses frequently are: 
