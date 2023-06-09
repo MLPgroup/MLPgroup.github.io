@@ -28,22 +28,43 @@ kani:
 emma:
     display_name: "Emma Hamel"
     webpage: "https://github.com/emhamel"
+    netid: ebhamel2
     github: emhamel
-    role: postdoc
+    role: alum
     image: /img/people/Emma.jpg
     bio: Alumni Research Assistant
 
 neeraj:
     display_name: "Neeraj Gangwar"
     webpage: "https://neerajgangwar.com/"
+    netid: gangwar2
     github: neerajgangwar
     role: grad
     image: /img/people/neeraj.jpg
     bio: Graduate Research Assistant
 
+suyuan:
+    display_name: "Suyuan Wang"
+    webpage: "https://www.linkedin.com/in/suyuanw8197a724a/"
+    netid: suyuan2
+    github: 
+    role: grad
+    image: /img/people/suyuan.jpg
+    bio: Graduate Research Assistant
+
+sumedh:
+    display_name: "Sumedh Vemuganti"
+    webpage: "https://www.linkedin.com/in/sumedh-vemu/"
+    netid: sumedh2
+    github: 
+    role: grad
+    image: /img/people/sumedh.jpeg
+    bio: Graduate Research Assistant
+
 hongbo:
     display_name: "Hongbo Zheng"
     webpage: "https://www.linkedin.com/in/hongbo-zheng-b088581b6"
+    netid: hongboz2
     github: 
     role: ugrad
     image: /img/people/hongbo.jpeg
@@ -52,6 +73,7 @@ hongbo:
 weiyang:
     display_name: "Weiyang Wang"
     webpage: "google.com"
+    netid:
     github: 
     role: ugrad
     image: /img/people/weiyang.jpeg
@@ -60,6 +82,7 @@ weiyang:
 ayu:
     display_name: "Ayu Seiya"
     webpage: "https://www.linkedin.com/in/ayu-seiya-88509722b"
+    netid:
     github: 
     role: ugrad
     image: /img/people/ayu.jpg
@@ -68,6 +91,7 @@ ayu:
 rubin:
     display_name: "Rubin Zou"
     webpage: "https://www.linkedin.com/in/jiaru-zou-67434a21a/"
+    netid:
     github: MP-killer
     role: ugrad
     image: /img/people/rubin.jpg
@@ -75,6 +99,7 @@ rubin:
 
 qing:
     display_name: "Qing Wang"
+    netid: 
     webpage: "https://github.com/Kingcela/variable_extraction"
     github: Kingcela
     role: ugrad
