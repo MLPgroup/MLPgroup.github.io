@@ -146,3 +146,11 @@ svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
 }
+
+details {
+    margin-left: 2em;
+  }
+  
+summary {
+    margin-left: -2em;
+}
