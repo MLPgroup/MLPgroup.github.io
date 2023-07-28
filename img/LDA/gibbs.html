@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+        <title>Gibbs Sampling</title>
+        <style>
+            .container {
+                display: flex;
+            }
+            .section {
+                flex: 1;
+                flex-direction: column;
+            }
+            .section#leftsec {
+                text-align: center;
+            }
+            .inner {
+                padding-left:5%;
+                padding-right: 15%;
+            }
+            .inputContainer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .inputContainer input {
+                width: 20px;
+                height: 15px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="section" id="leftsec">
+
+                
+                <div class="inputContainer">
+                    <p>Number of Topics: </p>
+                    <input id = "inputN", value = "5">
+                    <p>Value for alpha: </p>
+                    <input id = "inputAlpha", value = "0.1">
+                    <p>Value for beta: </p>
+                    <input id = "inputBeta", value = "0.1">
+                    <button id="BtnInput">Modify Hyperparameters</button>
+                </div>
+                <button id="startWord">Iterate By Word</button>
+                <button id="startCorpus">Iterate By Corpus</button>
+                <button id="reset">Reset</button>
+
+
+                <div id="word-container"></div>
+                <button id="iterateBtn">Iterate!</button>
+            </div>
+            <div class="section" id="rightsec">
+                <div class="inner">
+                    <div id="corpusModeDiv">
+                        <p>The corpus is now randomly initialized.</p>
+                        <p>When you are under "corpus mode", each time you click the iterate button, the model is going to iterate through each word from each document once. This mode is designed for users to notice the convergence faster.</p>
+                    </div>
+                    <div id="wordModeDiv_">
+                        <p>The corpus is now randomly initialized.</p>
+                        <p>When you are under "word mode", each time you click the iterate button, the model is going to be trained for the current word. This mode is designed for user to learn the underlying details of model training.</p>
+                    </div>
+                    <div id="wordModeDiv">
+                        <p id = "sentence_1"></p>
+                        <p>Step 1: Unlabel the word with topic and continue;</p>
+                        <p>Step 2: Iterate through topic, take topic 1 as an example;</p>
+                        <p>Step 3: For current document, calculate the ratio of the occrance of topic 1 compared to the corpus with alpha added for smoothing, by formula:</p>
+                        <p>(occrance of current topic in current document + α) / (length of current topic + α * number of topics)</p>
+                        <p id = "sentence_2"></p>
+                        <p>Step 4: For the current word, calculate the ratio of the occrance of topic 1 compared to the corpus with beta added for smoothing, by formula:</p>
+                        <p>(occrance of current word of current topic + β) / (total occrance of current word + β * size of vocabulary)</p>
+                        <p id = "sentence_3"></p>
+                        <p>Step 5: Multiply the above two probabilities and append them to the distribution list:</p>
+                        <p id="sentence_4"></p>
+                        <p>Step 6: Iterate Step 2 - 5 for each topic, resulting with a raw distribution:</p>
+                        <div id="distribution_1"></div>
+                        <p>Step 7: Normalize the distribution:</p>
+                        <div id="distribution_2"></div>
+                        <p>Step 8: Randomly draw from the distribution:</p>
+                        <p id="sentence_5"></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="/js/gibbs.js"></script>
+    </body>
+</html>
