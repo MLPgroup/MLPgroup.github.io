@@ -293,7 +293,7 @@ $$
     </li>
 </ul>
 
-<h1>8. Additional Resources</h2>
+<h1>8. Additional Resources</h1>
 <ul>
     <li>
         <a href="https://towardsdatascience.com/latent-dirichlet-allocation-intuition-math-implementation-and-visualisation-63ccb616e094">
