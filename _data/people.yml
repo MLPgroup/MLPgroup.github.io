@@ -106,6 +106,14 @@ qing:
     image: /img/people/qing.jpg
     bio: Undergraduate Researcher
 
+vishesh:
+    display_name: "Vishesh Prasad"
+    netid: vprasad3
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Researcher
 
 # alum-a:
 #     display_name: "Alum A"
