@@ -56,7 +56,7 @@ sumedh:
     display_name: "Sumedh Vemuganti"
     webpage: "https://www.linkedin.com/in/sumedh-vemu/"
     netid: sumedh2
-    github: 
+    github: svemu19
     role: grad
     image: /img/people/sumedh.jpeg
     bio: Graduate Research Assistant
@@ -73,8 +73,8 @@ hongbo:
 weiyang:
     display_name: "Weiyang Wang"
     webpage: "google.com"
-    netid:
-    github: 
+    netid: weiyang7
+    github: willwwy
     role: ugrad
     image: /img/people/weiyang.jpeg
     bio: Undergraduate Researcher
