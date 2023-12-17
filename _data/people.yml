@@ -110,10 +110,30 @@ vishesh:
     display_name: "Vishesh Prasad"
     netid: vprasad3
     webpage: ""
-    github: 
+    github: VisheshP-29
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/visheh.png
     bio: Undergraduate Researcher
+
+brian:
+    display_name: "Brian Kim"
+    netid: brianhk2
+    webpage: https://www.linkedin.com/in/brian-kim-7a5116177/
+    github: bkimk
+    role: ugrad
+    image: /img/people/briankim.png
+    bio: Undergraduate Researcher
+
+pratyush:
+    display_name: "Pratyush Thakur"
+    netid: pthakur3
+    webpage: https://www.linkedin.com/in/pratyushthakur/
+    github: pratyush242
+    role: ugrad
+    image: /img/people/pratyush.png
+    bio: Undergraduate Researcher
+
+
 
 
 # alum-a:
