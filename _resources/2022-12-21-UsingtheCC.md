@@ -151,6 +151,25 @@ On campus there are several large groups that have servers available for their m
 # your code here
 {% endhighlight %}
 
+### Running Interactive Jobs
+
+One thing that's kinda cool is that if you need a program to run for longer than 20minutes but don't want to write a script to submit a job, you can start an interactive job.
+
+First, allocate resources for your interactive job: 
+
+{% highlight shell %}
+salloc --partition=csl --time=7-00:00:00 --nodes=1 --ntasks-per-node=20
+{% endhighlight %}
+
+then start the job: 
+
+{% highlight shell %}
+srun --overlap --pty --jobid=9965755 -w ccc0111
+{% endhighlight %}
+
+remember that if you do this on your terminal, when you close the terminal you'll also stop the inteactive job. To avoid this, you can use the [screen command](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/). 
+
+Kinda cool hack. Huge thanks to Sumedh for showing it to me!
 
 ### References
 
