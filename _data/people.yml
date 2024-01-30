@@ -133,6 +133,14 @@ pratyush:
     image: /img/people/pratyush.png
     bio: Undergraduate Researcher
 
+siddhant:
+    display_name: "Siddhant Nanavati"
+    netid: ssn5
+    webpage: http://www.linkedin.com/in/siddhant-nanavati
+    github: ssn5
+    role: ugrad-alum
+    image: /img/people/siddhant.jpg
+    bio: Undergraduate Researcher
 
 
 
