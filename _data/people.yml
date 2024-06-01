@@ -77,7 +77,7 @@ weiyang:
     github: willwwy
     role: alum
     image: /img/people/weiyang.jpeg
-    bio: Undergraduate Researcher
+    bio: Alumni Research Assistant
 
 ayu:
     display_name: "Ayu Seiya"
@@ -86,7 +86,7 @@ ayu:
     github: 
     role: alum
     image: /img/people/ayu.jpg
-    bio: Undergraduate Researcher        
+    bio: Alumni Research Assistant       
 
 rubin:
     display_name: "Rubin Zou"
@@ -104,7 +104,7 @@ qing:
     github: Kingcela
     role: alum
     image: /img/people/qing.jpg
-    bio: Undergraduate Researcher
+    bio: Alumni Research Assistant
 
 vishesh:
     display_name: "Vishesh Prasad"
