@@ -134,7 +134,7 @@ There are two types of queues:
 1. primary - This is a server specific queue which gets priority. Access is limited but if you know the administrator you can ask for access using this [form](https://campuscluster.illinois.edu/new_forms/user_form.php).
 2. secondary - This queue is available for everyone to run on.  It's limited to machines with a CPU processor and has a maximum runtime of 4 hours.  
 
-On campus there are several large groups that have servers available for their members. You can ask for access using this [form](https://campuscluster.illinois.edu/new_forms/user_form.php).Some notable queues our group uses frequently are: 
+On campus there are several large groups that have servers available for their members. You can ask for access using this [form](https://campuscluster.illinois.edu/new_forms/user_form.php). Some notable queues our group uses frequently are: 
 * **csl** -  This is a queue that you need to apply for, but the resources are much better than the secondary queue.  The maximum runtime is 7 days (168 hours) and it uses a cpu processor. 
 * **eng-research-gpu** - If your job requires a GPU to run, you would submit it to this queue.  There are four types of GPUs on this queue: Tesla M2090, Tesla K40M, Tesla K80, and P100.  This queue has a maximum runtime of two days (48 hours) and requires an application to access.  To submit a .pbs file on eng-research-gpu, some extra information needs to be added to the header. Below is a sample .pbs file for the eng-research-gpu queue. 
 {% highlight shell %}
@@ -155,19 +155,13 @@ On campus there are several large groups that have servers available for their m
 
 One thing that's kinda cool is that if you need a program to run for longer than 20minutes but don't want to write a script to submit a job, you can start an interactive job.
 
-First, allocate resources for your interactive job: 
+All you need is one simple command 
 
 {% highlight shell %}
-salloc --partition=csl --time=7-00:00:00 --nodes=1 --ntasks-per-node=20
+srun --partition=eng-research-gpu --time=48:00:00 --nodes=1 --ntasks-per-node=4 --cpus-per-task=8 --gres=gpu:A10:4 --pty /bin/bash
 {% endhighlight %}
 
-then start the job: 
-
-{% highlight shell %}
-srun --overlap --pty --jobid=9965755 -w ccc0111
-{% endhighlight %}
-
-remember that if you do this on your terminal, when you close the terminal you'll also stop the inteactive job. To avoid this, you can use the [screen command](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/). 
+Remember that if you do this on your terminal, when you close the terminal you'll also stop the interactive job. To avoid this, you can use the [screen command](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/). 
 
 Kinda cool hack. Huge thanks to Sumedh for showing it to me!
 
