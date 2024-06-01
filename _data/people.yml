@@ -66,7 +66,7 @@ hongbo:
     webpage: "https://www.linkedin.com/in/hongbo-zheng-b088581b6"
     netid: hongboz2
     github: 
-    role: ugrad
+    role: grad
     image: /img/people/hongbo.jpeg
     bio: Undergraduate Researcher    
 
@@ -75,7 +75,7 @@ weiyang:
     webpage: "google.com"
     netid: weiyang7
     github: willwwy
-    role: ugrad
+    role: alum
     image: /img/people/weiyang.jpeg
     bio: Undergraduate Researcher
 
@@ -84,7 +84,7 @@ ayu:
     webpage: "https://www.linkedin.com/in/ayu-seiya-88509722b"
     netid:
     github: 
-    role: ugrad
+    role: alum
     image: /img/people/ayu.jpg
     bio: Undergraduate Researcher        
 
@@ -93,7 +93,7 @@ rubin:
     webpage: "https://www.linkedin.com/in/jiaru-zou-67434a21a/"
     netid:
     github: MP-killer
-    role: ugrad
+    role: grad
     image: /img/people/rubin.jpg
     bio: Undergraduate Researcher        
 
@@ -102,7 +102,7 @@ qing:
     netid: 
     webpage: "https://github.com/Kingcela/variable_extraction"
     github: Kingcela
-    role: ugrad
+    role: alum
     image: /img/people/qing.jpg
     bio: Undergraduate Researcher
 
@@ -151,7 +151,14 @@ atharva:
     image: /img/people/atharva.jpg
     bio: Undergraduate Researcher
 
-
+shreyas:
+    display_name: "Shreyas Sriram"
+    netid: ssrir5
+    webpage: http://www.linkedin.com/in/sriram-shreyas
+    github: ssrir5
+    role: ugrad
+    image: /img/people/shreyas.jpg
+    bio: Undergraduate Researcher
 
 
 # alum-a:
